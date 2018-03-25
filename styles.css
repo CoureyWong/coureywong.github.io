@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align:center;
+  margin:0;
+  font:1.2em;
+  line-height:1.5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+h2{
+  font-family: 'Anton', sans-serif;
+}
+
+img {
+  max-width:100%;
+}
+
+a:link {
+  color:#1054BB;
+  text-decoration:none;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color:#527CBA;
+}
+a:active {
+  color:#AAC3E8;
+}
+/************Main Styles*************/
+.main-header,
+.main-footer {
+  text-align:center;
+}
+
+.main-header {
+  height:927px;
+  padding-top:300px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  background: linear-gradient(#1054BB, transparent),
+              linear-gradient(180deg, transparent, #fff),
+              url('../images/Alley 2.jpg') no-repeat center/cover; 
+}
+
+.title {
+  border-top:2px solid #000;
+  padding-top:20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.features {
+/*  padding:100px 25px 250px;*/
+  width:75%;
+  margin:auto;
+  border-bottom: 2px solid #dfe2e6;
+}
+.gfeat {
+  font-size: 3em;
+  padding:30px;
+  
+}
+
+.one h3,
+.two h3,
+.three h3,
+.four h3{
+  color:#fff;
+  background-color:#1054BB;
+  border-radius:100%;
+  width:100px;
+  height:100px;
+  padding-top:10%;
+  margin:auto;
+
+}
+.one,
+.two,
+.three,
+.four {
+  width:25%;
+  margin-bottom:100px;
+ 
+}
+.one {
+   float:left;
+   padding: 10px 20px;
+}
+.two {
+  float:left;
+  padding: 10px 20px;
+}
+
+.three{
+  float:left;
+  padding: 10px 20px;
+}
+.four {
+  float:  right;
+  padding: 10px 20px;
+}
+
+.about {
+  width:65%;
+  margin:150px auto;
+  padding:10% 12%;
+  color: #fff;
+  font-size:1.3em;
+  background: radial-gradient(rgba(0, 0, 0, .8), transparent),
+              url("../images/Alley 3.jpg") no-repeat center/cover;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .6),
+              inset 0 0 100px rgba(0, 0, 0, .8);
+  border:5px solid #1054BB;
+  border-radius: 10px;
+}
+
+.choices{
+  padding: 100px 0;
+  font-size:1.5em;
+}
+
+.basic-options {
+/*  padding:40px 180px;*/
+  width:75%;
+  margin:auto;
+  max-width:960px;
+}
+.standard,
+.premium{
+  width: 46.5%;
+  border:2px solid #1054BB;
+  border-radius:25px;
+  margin: auto;
+  max-width:350px;
+  min-width:200px;
+}
+
+.standard h3,
+.premium h3 {
+  color:#fff;
+  padding:20px 0; 
+  background-color: #1054BB;
+}
+.standard{
+  float:left;
+}
+.premium {
+float:right;
+}
+.main-footer {
+  border-bottom:10px solid #1054BB;
+  padding: 40px 0;
+}
+
+/*float Clearfix*/
+
+.group:after {
+  content: "";
+  display:block;
+  clear:both;
+}
